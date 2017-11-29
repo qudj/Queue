@@ -1,0 +1,15 @@
+<?php
+
+$___global_config = array(
+    "rabbitmq" => array(
+        'host' => array(
+            '127.0.0.1',
+            'localhost',
+        ),
+        'port' => 5672,
+        'login' => 'root',
+        'password' => '123456',
+    ),
+);
+
+return $___global_config;
